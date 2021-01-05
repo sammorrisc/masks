@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+}
+.skewedbox {
+    background: rgb(255, 255, 124);
+    padding: 100px 0;
+    transform: skewY(-10deg) translateY(-120px);
+    
+}
+.container {
+    padding: 150px 200px;
+    transform: skewY(10deg) translateY(120px);
+
+}
+.container .my-img {
+    width: 5rem;
+}
+
+.container h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 20px 0;
+}
+.container p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0px;
+    line-height: 1.5rem;
+    width: 80%;
+}
+
+/* ==========section-2============ */
+.sec2 {
+    padding: 0 200px 150px;
+    color: white;
+    text-align: right;
+}
+.sec2 .container h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 20px 0;
+}
+.sec2 p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0px;
+    line-height: 1.5rem;
+    width: 80%;
+    position: relative;
+    top: 0px;
+}

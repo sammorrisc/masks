@@ -1,0 +1,11 @@
+.my-heading{
+    text-align: center;
+    background-color: rgba(63, 129, 63, 0.664);
+    color: #101820;
+    padding:1rem 1rem;
+}
+
+.my-card {
+    width: 30%;
+    margin: 2rem auto;
+}
