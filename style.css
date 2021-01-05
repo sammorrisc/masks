@@ -5,7 +5,18 @@
     padding:1rem 1rem;
 }
 
+.my-tagline {
+    font-style: italic;
+}
+
 .my-card {
     width: 30%;
     margin: 2rem auto;
+}
+
+.my-status p{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+    
 }
