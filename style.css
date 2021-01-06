@@ -142,6 +142,7 @@ body {
     position: relative;
     top: 6vw;
     margin-bottom: 2rem;
+    width: 80vw;
 }
 .my-about-heading {
     margin-bottom: 2rem;
@@ -166,9 +167,15 @@ body {
     font-size: 2rem;
     position: relative;
     top: 4rem;
-    right: 5%;
+    right: 17vw;
 
 }
+@media only screen and (max-width:1199.98px){
+    .my-verse p {
+        position: relative;
+        right: 17vw;
+    }
+    }
 @media only screen and (max-width:991.98px){
     .my-verse p {
         position: relative;
@@ -178,12 +185,12 @@ body {
 @media only screen and (max-width:767.98px){
     .my-verse p {
         position: relative;
-        right: -1%;
+        right: -1vw;
     }
     }
 @media only screen and (max-width:575.98px){
 .my-verse p {
     position: relative;
-    right: 5%;
+    right: 3vw;
 }
 }
