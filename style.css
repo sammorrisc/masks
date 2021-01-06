@@ -27,7 +27,6 @@ body {
 /* =============================NAVIGATION=================== */
 
 .my-header .navbar .nav-item .nav-link span {
-    border-left: 1px solid black;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 0.3rem;
@@ -84,6 +83,19 @@ body {
     font-size: 3rem;
 
 }
+@media only screen and (min-width:576px){
+    .my-title h1{
+        font-size: 11vw;
+        text-align: start;
+        
+    }
+    .my-tagline p {
+        font-size: 6.5vw;
+        position: relative;
+        left: -6.5%;
+    }
+       
+}
 @media only screen and (min-width:992px){
     /* .my-title h1{
         font-size: 9vw;
@@ -97,18 +109,13 @@ body {
         text-align: start;
         
     }    */
-}
-@media only screen and (min-width:576px){
-    .my-title h1{
-        font-size: 11vw;
-        text-align: start;
-        
-    }
     .my-tagline p {
-        font-size: 2.5rem;
+        font-size: 6.5vw;
+        position: relative;
+        left: -10%;
     }
-       
 }
+
 @media only screen and (max-width:575.98px){
     .my-title h1{
         font-size: 12vw;
@@ -121,7 +128,9 @@ body {
         top: 17%;
     }
     .my-tagline p {
-        font-size: 2rem;
+        font-size: 8vw;
+        position: relative;
+        left: -9%;
     }
     
 }
