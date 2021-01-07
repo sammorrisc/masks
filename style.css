@@ -44,7 +44,7 @@ body{
 
 .my-tagline p{
     font-family: 'Cookie', cursive;
-    font-size: 6.5vw;
+    font-size: 7.5vw;
 }
 
 
@@ -79,29 +79,7 @@ body{
     display: inline-block;
 }
 /* added stuff new 12.40pm 07/1/21 */
-@media only screen and (min-width:1200px){
-    .my-tagline p{
-        font-size: 7.5vw;
-    }
 
-
-}
-@media only screen and (min-width:576px) and (max-width:767.98px){
-    .my-tagline p {
-        font-size: 7.5vw;
-    }
-}
-@media only screen and (min-width:768px) and (max-width:991.98px){
-    .my-tagline p {
-        font-size: 7.5vw;
-    }
-}
-@media only screen and (min-width:992px) and (max-width:1199.98px){
-    .my-tagline p {
-        font-size: 7.5vw;
-    }
-}
-/* added stuff new 12.40pm 07/1/21 */
 
 @media only screen and (max-width:575px){
     .my-tagline p {
