@@ -44,7 +44,8 @@ body{
 
 .my-tagline p{
     font-family: 'Cookie', cursive;
-    font-size: 7.5vw;
+    font-size: 3.32rem;
+
 }
 
 
@@ -85,4 +86,14 @@ body{
     .my-tagline p {
     font-size: 7.5vw;
 }
+}
+@media only screen and (min-width:760px){
+    .my-tagline p {
+        font-size: 6.9vw;
+    }
+}
+@media only screen and (min-width:986px){
+    .my-tagline p {
+        font-size: 7.9vw;
+    }
 }
