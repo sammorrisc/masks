@@ -9,7 +9,7 @@ font-family: 'Leckerli One', cursive;
 
 bg-color: #cde4eb;
  */
-html{
+ html{
     height: 100%;
     scroll-behavior: smooth;
 }
@@ -47,6 +47,7 @@ body{
     font-size: 6.5vw;
 }
 
+
 .my-about-us {
     margin-top: 2rem;
     
@@ -76,4 +77,34 @@ body{
 .my-masks p{
     border-bottom: 1px solid black;
     display: inline-block;
+}
+/* added stuff new 12.40pm 07/1/21 */
+@media only screen and (min-width:1200px){
+    .my-tagline p{
+        font-size: 7.5vw;
+    }
+
+
+}
+@media only screen and (min-width:576px) and (max-width:767.98px){
+    .my-tagline p {
+        font-size: 7.5vw;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991.98px){
+    .my-tagline p {
+        font-size: 7.5vw;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199.98px){
+    .my-tagline p {
+        font-size: 7.5vw;
+    }
+}
+/* added stuff new 12.40pm 07/1/21 */
+
+@media only screen and (max-width:575px){
+    .my-tagline p {
+    font-size: 7.5vw;
+}
 }
