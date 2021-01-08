@@ -18,7 +18,7 @@ body{
 }
 .my-header {
     margin-bottom: 2rem;
-    height: 25vw;
+    height: 50vw;
     background: url(images/original-logo-edited.png);
     background-repeat: no-repeat;
     background-position: 50% 0%;
@@ -52,7 +52,7 @@ body{
 }
 
 .my-verse{
-    margin-top: 2rem;
+    margin-top: -15vw;
 
 }
 .my-verse p{
