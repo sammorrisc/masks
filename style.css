@@ -18,35 +18,25 @@ body{
 }
 .my-header {
     margin-bottom: 2rem;
-}
-.my-header-img {
-    background-image: url(images/mask-logo.png);
+    height: 25vw;
+    background: url(images/original-logo-edited.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 30% 56%;
+    background-position: 50% 0%;
+    background-size: 75% 100%;
 }
-
-.my-header h1{
-    font-family: 'Leckerli One', cursive;
-    height: 100%;
+/* .my-header {
+    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: coral;
-    font-size: 12vw;
+    background-color: black;
+    height: 25vw;
+} */
 
-
-}
-.my-tagline{
-    margin-top: 2rem;
-
-}
-
-.my-tagline p{
-    font-family: 'Cookie', cursive;
-    font-size: 3.32rem;
-
-}
+/* .my-header img{
+    width: 100%;
+    object-fit: contain;
+    object-position: 50% 10%;
+} */
 
 
 .my-about-us {
@@ -73,6 +63,8 @@ body{
 
 .my-masks {
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
 
 }
 .my-masks p{
@@ -82,7 +74,7 @@ body{
 /* added stuff new 12.40pm 07/1/21 */
 
 
-@media only screen and (max-width:575px){
+/* @media only screen and (max-width:575px){
     .my-tagline p {
     font-size: 7.5vw;
 }
@@ -96,4 +88,4 @@ body{
     .my-tagline p {
         font-size: 7.9vw;
     }
-}
+} */

@@ -18,10 +18,6 @@ body{
 }
 .my-header {
     margin-bottom: 2rem;
-    width: 65%;
-    /* background-color: black; */
-    display: flex;
-    justify-content: center;
 }
 .my-header-img {
     background-image: url(images/mask-logo.png);
@@ -42,28 +38,19 @@ body{
 
 }
 .my-tagline{
-    margin-top: -2rem;
-    
+    margin-top: 2rem;
 
 }
 
 .my-tagline p{
     font-family: 'Cookie', cursive;
     font-size: 3.32rem;
-    /* font-size: 100%; */
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    /* background-color: blue; */
-    height: auto;
-    width: inherit;
 
 }
 
 
 .my-about-us {
     margin-top: 2rem;
-    /* background-color: brown; */
     
 }
 .my-about-text {
@@ -76,7 +63,6 @@ body{
 
 .my-verse{
     margin-top: 2rem;
-    /* background-color: cadetblue; */
 
 }
 .my-verse p{
@@ -87,14 +73,11 @@ body{
 
 .my-masks {
     margin-top: 2rem;
-    /* background-color: darkgoldenrod; */
-    display: flex;
-    justify-content: center;
 
 }
 .my-masks p{
     border-bottom: 1px solid black;
-    
+    display: inline-block;
 }
 /* added stuff new 12.40pm 07/1/21 */
 
@@ -111,6 +94,6 @@ body{
 }
 @media only screen and (min-width:986px){
     .my-tagline p {
-        font-size: 7.5vw;
+        font-size: 7.9vw;
     }
 }
